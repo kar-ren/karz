@@ -114,7 +114,12 @@ img {
 }
 
 td{
-    text-align: center;
+  text-align: center;
+}
+
+td a{
+  text-decoration: none;
+  color: black;
 }
 
 .pagebutton{
