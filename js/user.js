@@ -78,7 +78,7 @@ const addRows = (user) => {
     const forEachcallBack = function(user){
         console.log(user);
         const rowElem = document.createElement('tr');
-
+        
         const id = document.createElement('td');
         const firstName = document.createElement('td');
         const lastName = document.createElement('td');
