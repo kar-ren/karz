@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>To Do List</title>
-    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="todo.css" />
   </head>
   <body>
     <div class="container">
-      <div class="todoname">
+      <div class="name">
         <h2>To Do List</h2>
       </div>
       <div class="searchbar">
         <input type="text" placeholder="Search.." />
+        <input type="button" class="btnserach button" value="Search" />
       </div>
       <div>
         <a href="./userlist.html" class="button">View User</a>
       </div>
-      <div class="table">
+      <div>
         <table>
           <thead>
             <tr>
@@ -34,44 +35,64 @@
             <tr>
               <td>1</td>
               <td>Front-end</td>
-              <td>x</td>
+              <td>Design</td>
               <td>On-going</td>
               <td>Rolito Valles</td>
-              <td><a href="./update.html">Update</a> | Delete</td>
+              <td>
+                <a href="./update.html">Update</a> |
+                <a href="./delete.html"> Delete</a>
+              </td>
             </tr>
             <tr>
               <td>2</td>
-              <td>s</td>
-              <td>a</td>
-              <td>w</td>
-              <td>w</td>
-              <td><a href="./update.html">Update</a> | Delete</td>
+              <td>Back-End</td>
+              <td>Coding</td>
+              <td>Not yet</td>
+              <td></td>
+              <td>
+                <a href="./update.html">Update</a> |
+                <a href="./delete.html"> Delete</a>
+              </td>
             </tr>
             <tr>
               <td>3</td>
+              <td>Database Connection</td>
+              <td>Maintain</td>
+              <td>Not yet</td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><a href="./update.html">Update</a> | Delete</td>
+              <td>
+                <a href="./update.html">Update</a> |
+                <a href="./delete.html"> Delete</a>
+              </td>
             </tr>
             <tr>
               <td>4</td>
+              <td>Validating and Verifying</td>
+              <td>Test Codes</td>
+              <td>Not yet</td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><a href="./update.html">Update</a> | Delete</td>
+              <td>
+                <a href="./update.html">Update</a> |
+                <a href="./delete.html"> Delete</a>
+              </td>
             </tr>
             <tr>
               <td>5</td>
+              <td>Planning</td>
+              <td>Create Requirements</td>
+              <td>Done</td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><a href="./update.html">Update</a> | Delete</td>
+              <td>
+                <a href="./update.html">Update</a> |
+                <a href="./delete.html"> Delete</a>
+              </td>
             </tr>
           </tbody>
+          <tfoot>
+            <input type="button" value="&lt;" class="pagebutton"/>
+            Page 1/2
+            <input type="button" value="&gt;" class="pagebutton"/>
+          </tfoot>
         </table>
       </div>
     </div>
