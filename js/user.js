@@ -123,4 +123,5 @@ const clearRows = () =>{
         row.remove();
     });
 }
+
 addRows(userData);
