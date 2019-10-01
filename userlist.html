@@ -13,26 +13,23 @@
         <h2>To Do List</h2>
       </div>
       <div class="searchbar">
-          <input type="text" placeholder="Search.." />
-          <input type="button" class="btnserach button" value="Search" />
+          <input type="text" placeholder="Search.." id="search"/>
       </div>
       <div>
         <a href="./index.html" class="button">View Todos</a>
       </div>
       <div>
-        <table>
+        <table id = "tableData">
           <thead>
             <tr>
               <th>ID No.</th>
               <th>First Name</th>
               <th>Last Name</th>
               <th>Occupation</th>
-              <th>No of Todos</th>
-              <th>Actions</th>
-            </tr>
+              </tr>
           </thead>
           <tbody>
-            <tr>
+             <!--<tr>
               <td>1</td>
               <td><a href="./user.html">Rolito</a></td>
               <td>Valles</td>
@@ -78,15 +75,14 @@
               <td><a href="./updateuser.html">Update</a> | 
                 <a href="./delete.html"> Delete</a>
               </td>            
-            </tr>
+            </tr> -->
           </tbody>
-          <tfoot>
-            <input type="button" value="&lt;" class="pagebutton" id="less"/>
-            Page 1/1
-            <input type="button" value="&gt;" class="pagebutton" id="greater"/>
-          </tfoot>
         </table>
+        <input type="button" value="&lt;" class="pagebutton" id="less"/>
+          Page 1/1
+        <input type="button" value="&gt;" class="pagebutton" id="greater"/>
       </div>
     </div>
   </body>
+  <script src="./js/user.js"></script>
 </html>
