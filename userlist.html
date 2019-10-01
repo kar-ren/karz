@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>User Lists</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="user.css" />
   </head>
   <body>
     <div class="container">
-      <div class="todoname">
+      <div class="name">
         <h2>To Do List</h2>
       </div>
       <div class="searchbar">
-        <input type="text" placeholder="Search.." />
+          <input type="text" placeholder="Search.." />
+          <input type="button" class="btnserach button" value="Search" />
       </div>
       <div>
         <a href="./index.html" class="button">View Todos</a>
       </div>
-      <div class="table">
+      <div>
         <table>
           <thead>
             <tr>
               <th>ID No.</th>
-              <th>Name</th>
+              <th>First Name</th>
+              <th>Last Name</th>
               <th>Occupation</th>
               <th>No of Todos</th>
               <th>Actions</th>
@@ -32,40 +34,57 @@
           <tbody>
             <tr>
               <td>1</td>
-              <td>k</td>
-              <td>x</td>
-              <td>x</td>
-              <td><a href="./updateuser.html">Update</a> | Delete</td>
+              <td>Rolito</td>
+              <td>Valles</td>
+              <td>Front-End Dev</td>
+              <td>1</td>
+              <td><a href="./updateuser.html">Update</a> | 
+                <a href="./delete.html"> Delete</a>
+              </td>
             </tr>
             <tr>
               <td>2</td>
-              <td>s</td>
-              <td>a</td>
-              <td>w</td>
-              <td><a href="./updateuser.html">Update</a> | Delete</td>
-            </tr>
+              <td>Riche</td>
+              <td>Jiminez</td>
+              <td>Software Test Engr.</td>
+              <td>0</td>
+              <td><a href="./updateuser.html">Update</a> | 
+                <a href="./delete.html"> Delete</a>
+              </td>            </tr>
             <tr>
               <td>3</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><a href="./updateuser.html">Update</a> | Delete</td>
-            </tr>
+              <td>Vannessa</td>
+              <td>Pasa-an</td>
+              <td>Software Test Engr.</td>
+              <td>0</td>
+              <td><a href="./updateuser.html">Update</a> | 
+                <a href="./delete.html"> Delete</a>
+              </td>            </tr>
             <tr>
               <td>4</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><a href="./update.html">Update</a> | Delete</td>
-            </tr>
+              <td>Jayson</td>
+              <td>Custodio</td>
+              <td>Front-end Dev</td>
+              <td>0</td>
+              <td><a href="./updateuser.html">Update</a> | 
+                <a href="./delete.html"> Delete</a>
+              </td>            </tr>
             <tr>
               <td>5</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><a href="./update.html">Update</a> | Delete</td>
+              <td>Adrian</td>
+              <td>Sumagang</td>
+              <td>Back-End Dev</td>
+              <td>0</td>
+              <td><a href="./updateuser.html">Update</a> | 
+                <a href="./delete.html"> Delete</a>
+              </td>            
             </tr>
           </tbody>
+          <tfoot>
+            <input type="button" value="&lt;" class="pagebutton" id="less"/>
+            Page 1/1
+            <input type="button" value="&gt;" class="pagebutton" id="greater"/>
+          </tfoot>
         </table>
       </div>
     </div>
